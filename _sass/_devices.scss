@@ -58,3 +58,40 @@
   left: 23px;
   width: 246px;
 }
+
+.form-control__input {
+  border-width: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 50px;
+}
+
+.user-signup__submit {
+  border-width: 0;
+  border-radius: 0;
+  font-size: 14px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 50px;
+  background-color: #0191FF;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.user-signup__submit:hover {
+  background-color: #337ab7;
+  color: #FFF;
+}
+
+.temp-button-prelaunch {
+  background-color: #555;
+  &:hover {
+    background-color: #555;
+    cursor: default;
+  }
+}
+
+.temp-coming-soon {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
